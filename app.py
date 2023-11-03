@@ -1,5 +1,3 @@
-
-import requests
 import tls_client
 import csv
 
