@@ -95,7 +95,7 @@ def prizepicks_nba():
             if PPprop_type == 'NBA Points' or PPprop_type == 'NBA Rebounds' or PPprop_type == 'NBA Assists' or PPprop_type =='NBA PRA' or PPprop_type =='NBA 3-point attempts' or PPprop_type == 'NBA FT Made' or PPprop_type == 'NBA FT Made' or PPprop_type == 'NBA FG Attempts' or PPprop_type == 'NBA PR' or PPprop_type == 'NBA PA' or PPprop_type == 'NBA PA' or PPprop_type == '3pt made' or PPprop_type == 'NBA Blocked Shots' or PPprop_type == 'NBA Blocks & Steals' or PPprop_type == 'NBA RA' or PPprop_type == 'NBA Turnovers' or PPprop_type == 'NBA FS':
                 ppdic = {'Name': PPname, 'Stat':PPprop_type, 'Line': PPprop_value}
                 pplist.append(ppdic)
-    print(pplist)
+    
     
         
 
