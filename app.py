@@ -190,7 +190,7 @@ app = Flask(__name__)
 # Your existing code here
 
 # Define an endpoint to access your functionality
-@app.route('/compare', methods=['GET'])
+@app.route('/')
 def compare_endpoint():
     prizepicks_nba()
     underdog_nba()
